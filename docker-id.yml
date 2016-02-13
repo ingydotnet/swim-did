@@ -1,0 +1,9 @@
+---
+name: swim
+user: dids
+
+entry:
+- name: main
+  entry: swim
+
+  run: -i --entrypoint /usr/local/bin/swim dids/swim

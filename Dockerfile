@@ -6,5 +6,3 @@ RUN cpanm -n \
     Swim \
     Swim::Plugin::badge \
     Swim::Plugin::cpan
-
-ENTRYPOINT ["swim", "--to=pod", "--complete", "--wrap"]
