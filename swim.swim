@@ -1,0 +1,14 @@
+dids/swim
+=========
+
+Docker ID image for swim CLI
+
+= Synopsis
+
+  cat file.swim | did run yaml2json --to=pod --complete
+
+= Copyright & License
+
+Copyright 2016. Ingy döt Net.
+
+The MIT License (MIT)
