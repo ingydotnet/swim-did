@@ -1,6 +1,7 @@
 ---
 name: swim
 user: dids
+repo: git@github.com:ingydotnet/swim-did
 
 entry:
 - name: main
