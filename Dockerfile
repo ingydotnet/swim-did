@@ -1,9 +1,5 @@
-FROM ubuntu:14.04
+FROM alpine:latest
 
-RUN apt-get update && \
-    apt-get install -y build-essential cpanminus
-RUN cpanm -n \
-    IPC::Run \
-    Swim \
-    Swim::Plugin::badge \
-    Swim::Plugin::cpan
+COPY build /.build
+
+RUN sh /.build
